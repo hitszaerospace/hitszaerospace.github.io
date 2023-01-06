@@ -23,12 +23,6 @@
 
   
 
-    
-
-    
-
-  
-
   
 
   
@@ -36,24 +30,25 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.1" />
-<meta property="og:title" content="Hitsz航天科技研究院" />
+<meta property="og:title" content="About" />
 <meta property="og:locale" content="cn" />
-<meta name="description" content="用于存放设备使用说明和各种技术文档." />
-<meta property="og:description" content="用于存放设备使用说明和各种技术文档." />
-<link rel="canonical" href="https://hitszaerospace.github.io/" />
-<meta property="og:url" content="https://hitszaerospace.github.io/" />
+<meta name="description" content="Add Markdown syntax content to file _tabs/about.md and it will show up on this page." />
+<meta property="og:description" content="Add Markdown syntax content to file _tabs/about.md and it will show up on this page." />
+<link rel="canonical" href="https://hitszaerospace.github.io/about/" />
+<meta property="og:url" content="https://hitszaerospace.github.io/about/" />
 <meta property="og:site_name" content="Hitsz航天科技研究院" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-01-06T17:17:53+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Hitsz航天科技研究院" />
+<meta property="twitter:title" content="About" />
 <meta name="twitter:site" content="@hitszaerospace" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"用于存放设备使用说明和各种技术文档.","headline":"Hitsz航天科技研究院","name":"hitszaerospace","sameAs":["https://twitter.com/hitszaerospace","https://github.com/hitszaerospace"],"url":"https://hitszaerospace.github.io/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","dateModified":"2023-01-06T17:17:53+08:00","datePublished":"2023-01-06T17:17:53+08:00","description":"Add Markdown syntax content to file _tabs/about.md and it will show up on this page.","headline":"About","name":"hitszaerospace","sameAs":["https://twitter.com/hitszaerospace","https://github.com/hitszaerospace"],"url":"https://hitszaerospace.github.io/about/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Hitsz航天科技研究院
+  <title>About | Hitsz航天科技研究院
   </title>
 
   <!--
@@ -108,6 +103,9 @@
 
   
 
+  
+    <!-- Manific Popup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
 
   <!-- JavaScript -->
@@ -276,7 +274,7 @@
   <ul class="w-100">
 
     <!-- home -->
-    <li class="nav-item active">
+    <li class="nav-item">
       <a href="/" class="nav-link">
         <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
         <span></span>
@@ -311,7 +309,7 @@
       </a>
     </li> <!-- .nav-item -->
     
-    <li class="nav-item">
+    <li class="nav-item active">
       <a href="/about/" class="nav-link">
         <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i>
         
@@ -420,8 +418,29 @@
     
 
     
-      <!-- index page -->
-      <span></span>
+
+      
+
+        
+          <span>
+            <a href="/">
+              
+            </a>
+          </span>
+
+        
+
+      
+
+        
+
+          
+            <span>About</span>
+          
+
+        
+
+      
 
     
 
@@ -430,7 +449,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      Hitsz航天科技研究院
+      About
     </div>
 
     <i id="search-trigger" class="fas fa-search fa-fw"></i>
@@ -464,224 +483,129 @@
     
       
       
+      <h1 class="dynamic-title">
+        About
+      </h1>
+      <div class="post-content">
         
-
-
-
-
-<!-- Get pinned posts -->
-
-
-
-
-
-
-<!-- Get default posts -->
-
-
-
-
-
-
-
-
-
-
-<div id="post-list">
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/ros-franka/">How to control Franka Panda by ROS</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        
-导言
-franka_ros是Ros controller框架下一套通讯控制接口，用户需要编写自己的controller类，继承franka_ros提供的接口(franka_hw::  )来实现传感器读取和控制。
-
-Ros controller的相关资料https://zhuanlan.zhihu.com/p/433214417https://blog.csdn.net/gongdiwudu...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
+      
         <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
+  Refactor the HTML structure.
 -->
 
 
 
+<!--
+  In order to allow a wide table to scroll horizontally,
+  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
+-->
 
 
-<em class=""
-    data-ts="1672985400"
-    data-df="DD/MM/YYYY"
-    >
-  06/01/2023
-</em>
+
+<!--
+  Fixed kramdown code highlight rendering:
+  https://github.com/penibelst/jekyll-compress-html/issues/101
+  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
+-->
 
 
-        <!-- categories -->
+
+<!-- Change the icon of checkbox -->
+
+
+<!-- images -->
+
+
+
+
+
+<!-- Add header for code snippets -->
+
+
+
+<!-- Create heading anchors -->
+
+
+
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+
+
+
+<!-- Wrap prompt element of blockquote with the <div> tag -->
+
+
+
+
+
+
+
+  
+  
+
+  
+
+    
+      
+      
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
         
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Tutorial
-          </span>
         
 
+    
+
+    
+    
+
+    
+
+  
+
+  
+
+
+
+<!-- return -->
+
+<blockquote class="prompt-tip"><div>
+  <p>Add Markdown syntax content to file <code class="language-plaintext filepath highlighter-rouge">_tabs/about.md</code> and it will show up on this page.</p>
+</div></blockquote>
+
+
+      
+    
       </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-  <div class="post-preview">
-    <h1>
-      <a href="/posts/text-and-typography/">Text and Typography</a>
-    </h1>
-
-    <div class="post-content">
-      <p>
-        
-
-
-
-
-
-        This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
-
-Titles
-
-
-H1 - heading
-
-H2 - heading
-
-H3 - h...
-      </p>
-    </div>
-
-    <div class="post-meta text-muted d-flex">
-      <div class="mr-auto">
-
-        <!-- posted date -->
-        <i class="far fa-calendar fa-fw"></i>
-        <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class=""
-    data-ts="1565235180"
-    data-df="DD/MM/YYYY"
-    >
-  08/08/2019
-</em>
-
-
-        <!-- categories -->
-        
-          <i class="far fa-folder-open fa-fw"></i>
-          <span>
-          
-            Blogging,
-            Demo
-          </span>
-        
-
-      </div>
-
-      
-
-    </div> <!-- .post-meta -->
-
-  </div> <!-- .post-review -->
-
-
-
-</div> <!-- #post-list -->
-
-
-  <!--
-  The paginator for post list on HomgPage.
--->
-
-<ul class="pagination align-items-center mt-4 pl-lg-2">
-  <!-- left arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="previous-page">
-      <i class="fas fa-angle-left"></i>
-    </a>
-  </li>
-
-  <!-- page numbers -->
-  
-  
-
-  
-
-    
-    
-    
-    
-    
-
-    
-
-    
-      <!-- show number -->
-      <li class="page-item  active">
-        <a class="page-link btn-box-shadow" href="/">1</a>
-      </li>
-    
-
-  
-
-  <!-- mobile pagination -->
-  <li class="page-index align-middle">
-    <span>1</span>
-    <span class="text-muted">/ 1</span>
-  </li>
-
-  <!-- right arrow -->
-  
-
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
-      <i class="fas fa-angle-right"></i>
-    </a>
-  </li>
-
-</ul> <!-- .pagination -->
-
-
-
-      
-    
     
 
     </div>
@@ -998,11 +922,7 @@ SimpleJekyllSearch({
 
 
 
-
-
-
-  
-
+  <!-- image lazy-loading & popup & clipboard -->
   
 
   
@@ -1040,17 +960,8 @@ SimpleJekyllSearch({
 
 
 
-  
-    
 
-    
-
-  
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/combine/npm/dayjs@1.11.6/dayjs.min.js,npm/dayjs@1.11.6/locale/cn.min.js,npm/dayjs@1.11.6/plugin/relativeTime.min.js,npm/dayjs@1.11.6/plugin/localizedFormat.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/lazysizes@5.3.2/lazysizes.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
 
 
 
@@ -1059,7 +970,8 @@ SimpleJekyllSearch({
 
 
 
-<script defer src="/assets/js/dist/home.min.js"></script>
+
+<script defer src="/assets/js/dist/page.min.js"></script>
 
 
 
