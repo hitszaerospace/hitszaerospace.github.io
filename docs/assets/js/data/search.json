@@ -1,7 +1,7 @@
 [
   
   {
-    "title": "How to control Franka Panda by ROS",
+    "title": "如何通过ROS控制Franka Panda",
     "url": "/posts/ros-franka/",
     "categories": "Tutorial",
     "tags": "ROS, Franka",
@@ -18,11 +18,11 @@
   },
   
   {
-    "title": "Text and Typography",
+    "title": "文档模板",
     "url": "/posts/text-and-typography/",
-    "categories": "Blogging, Demo",
+    "categories": "Tutorial",
     "tags": "typography",
-    "date": "2019-08-08 11:33:00 +0800",
+    "date": "2023-01-06 11:33:00 +0800",
     
 
 

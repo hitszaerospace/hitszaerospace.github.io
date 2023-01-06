@@ -4,7 +4,7 @@
   <id>https://hitszaerospace.github.io/</id>
   <title>Hitsz航天科技研究院</title>
   <subtitle>用于存放设备使用说明和各种技术文档.</subtitle>
-  <updated>2023-01-06T17:17:53+08:00</updated>
+  <updated>2023-01-06T20:06:03+08:00</updated>
   <author>
     <name>hitszaerospace</name>
     <uri>https://hitszaerospace.github.io/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>How to control Franka Panda by ROS</title>
-    <link href="https://hitszaerospace.github.io/posts/ros-franka/" rel="alternate" type="text/html" title="How to control Franka Panda by ROS" />
+    <title>如何通过ROS控制Franka Panda</title>
+    <link href="https://hitszaerospace.github.io/posts/ros-franka/" rel="alternate" type="text/html" title="如何通过ROS控制Franka Panda" />
     <published>2023-01-06T14:10:00+08:00</published>
   
-    <updated>2023-01-06T14:10:00+08:00</updated>
+    <updated>2023-01-06T17:31:45+08:00</updated>
   
     <id>https://hitszaerospace.github.io/posts/ros-franka/</id>
     <content src="https://hitszaerospace.github.io/posts/ros-franka/" />
@@ -47,12 +47,13 @@
 
 
       
+
 导言
 franka_ros是Ros controller框架下一套通讯控制接口，用户需要编写自己的controller类，继承franka_ros提供的接口(franka_hw::  )来实现传感器读取和控制。
 
 Ros controller的相关资料https://zhuanlan.zhihu.com/p/433214417https://blog.csdn.net/gongdiwudu/article/details/124153274
 
-关于franka_ros的相关资料官方FCL文档(可以看有哪些接口，但没有技术细节)http://www.franka.cn/FCI/franka_ros.html#franka-hwfranka_hw技术文档http://docs.ros.org/en/kinetic/api/franka_hw/html/annotated.html关于l...
+关于franka_ros的相关资料官方FCL文档(可以看有哪些接口，但没有技术细节)http://www.franka.cn/FCI/franka_ros.html#franka-hwfranka_hw技术文档http://docs.ros.org/en/kinetic/api/franka_hw/html/annotated.html关于...
     </summary>
   
 
@@ -60,23 +61,21 @@ Ros controller的相关资料https://zhuanlan.zhihu.com/p/433214417https://blog.
 
   
   <entry>
-    <title>Text and Typography</title>
-    <link href="https://hitszaerospace.github.io/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T11:33:00+08:00</published>
+    <title>文档模板</title>
+    <link href="https://hitszaerospace.github.io/posts/text-and-typography/" rel="alternate" type="text/html" title="文档模板" />
+    <published>2023-01-06T11:33:00+08:00</published>
   
-    <updated>2019-08-08T11:33:00+08:00</updated>
+    <updated>2023-01-06T11:33:00+08:00</updated>
   
     <id>https://hitszaerospace.github.io/posts/text-and-typography/</id>
     <content src="https://hitszaerospace.github.io/posts/text-and-typography/" />
     <author>
-      <name>cotes</name>
+      <name>hitszaerospace</name>
     </author>
 
   
     
-    <category term="Blogging" />
-    
-    <category term="Demo" />
+    <category term="Tutorial" />
     
   
 
