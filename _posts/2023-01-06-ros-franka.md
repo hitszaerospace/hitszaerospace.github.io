@@ -1,5 +1,5 @@
 ---
-title: How to control Franka Panda by ROS
+title: 如何通过ROS控制Franka Panda
 author: LinTao
 date: 2023-01-06 14:10:00 +0800
 categories: [Tutorial]
@@ -7,6 +7,7 @@ tags: [ROS, Franka]
 render_with_liquid: false
 ---
 <a name="UNZP5"></a>
+
 ## 导言
 franka_ros是Ros controller框架下一套通讯控制接口，用户需要编写自己的controller类，继承franka_ros提供的接口(franka_hw::  )来实现传感器读取和控制。
 
